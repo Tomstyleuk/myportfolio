@@ -1,0 +1,201 @@
+p {
+    color: white;
+    line-height: 1.8;
+}
+
+#project_page nav ul {
+    opacity: 1;
+    /* display: flex; */
+  }
+
+#header {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../images/german_strategy_consulting.png);
+    height: 800px;
+}
+
+/* KUNDEN Introduction */
+#client_intro {
+    background-image: linear-gradient(180deg,#002a6d, #b08829);
+    padding: 26px;
+    position: relative;
+    top: -340px;
+    left: 220px;
+    width: 50%;
+    z-index: 10000;
+    transition: all 0.5s ease;
+}
+
+#client_intro:hover {
+    box-shadow: 20px 20px 3px black;
+    top: -350px;
+    left: 210px;
+    transition: all 0.5s ease;
+}
+
+#client_intro p {
+    color: white;
+}
+
+.projekt_name {
+    color: white;
+    font-size: 3.2em;
+    mix-blend-mode: difference;
+}
+
+#title {
+    color: white;
+    font-size: 3.4em;
+    margin: 50px 0 0 120px;
+}
+
+
+/* initial_situation */
+#initial_situation,
+#tasks_area,
+#solution1,
+#solution2 {
+    width: 100%;
+}
+
+.initial_situation_content {
+    display: flex;
+    width: 100%;
+}
+
+.initial_situation_content p {
+    color: white;
+    margin: 70px 0 0 120px;
+    width: 50%;
+}
+
+#old_image {
+    margin: -60px 0 0 90px;
+    width: 40%;
+}
+
+#old_image img, 
+.sol1_left img, 
+.sol2_right img {
+    box-shadow: #1e1e1e4d 0 2px 6px 4px;
+}
+
+
+/* AUGABEN */
+#tasks_area {
+    margin: 150px 0;
+}
+
+#tasks {
+    display: flex;
+}
+
+#tasks h2 {
+    color: white;
+}
+
+#tasks p {
+    color: white;
+    margin: 70px 0 70px 250px;
+    width: 50%;
+    background: #223c64;
+    padding: 14px;
+    transition: all 0.5s ease;
+}
+
+#tasks:hover .task_texts {
+    margin: 60px 0 80px 240px;
+    /* background: #001940; */
+    box-shadow: 20px 20px 3px black;
+    transition: all 0.5s ease;
+} 
+
+
+/* LOSUNG 1 */
+    #solution_block1 {
+    display: flex;
+    margin: 70px 0 190px 0;
+    width: 100%;
+}
+
+.sol1_left {
+    margin: 0 0 0 120px;
+    width: 40%;
+}
+
+.sol1_right {
+    margin: -50px 0 0 -20px;
+    width: 46%;
+}
+
+.sol1_right p {
+    margin: 40px 0 0 0;
+}
+
+h3 {
+    color: white;
+    font-size: 2em;
+}
+
+
+/* LOSUNGEN 2 */
+#solution_block2 {
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+#solution2 h3 {
+    margin: 70px 0 0 120px;
+    width: 50%;
+}
+
+.sol2_left {
+    margin: 70px 0 0 120px;
+    width: 50%;
+}
+
+.sol2_right {
+    margin: -32px 0 0 90px;
+    width: 40%;
+}
+
+/* ZUR Webseite Link */
+#link {
+    text-align: center;
+    margin: 150px;
+}
+
+#webseite_link {
+    background-color: #223c64;
+    color: white;
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 16px 92px;
+    transition: all 0.4s ease;
+}
+
+#webseite_link:hover {
+    transform: translate(-10px, 100px);
+    padding: 20px 92px;
+    box-shadow: 0px 3px 4px 0px rgb(63, 63, 63);
+    color: #EBF018;
+    margin: 4px;
+}
+
+
+/* RESPONSIVE */
+#resposinve {
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+#resposinve h3 {
+    margin: 0 0 -14px 0;
+}
+
+#kontakt p {
+    color: black;
+}

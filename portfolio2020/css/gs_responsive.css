@@ -1,0 +1,468 @@
+@media screen and (max-width: 1024px) {
+
+    #project_page .name_container {
+
+    }
+
+    #header {
+        height: 600px;
+    }
+
+    /* KUNDEN Introduction */
+    #client_intro {
+        padding: 20px;
+        top: -270px;
+        left: 140px;
+        width: 70%;
+    }
+
+
+    #client_intro:hover {
+        box-shadow: 20px 20px 3px black;
+        top: -260px;
+        left: 130px;
+    }
+
+    .projekt_name {
+        font-size: 3.2em;
+    }
+
+
+    #title {
+        font-size: 3em;
+        margin: 50px 0 0 90px;
+    }
+
+    .initial_situation_content {
+        display: flex;
+    }
+
+    .initial_situation_content p {
+        color: white;
+        margin: 70px 0 0 90px;
+        width: 44%;
+    }
+
+    #old_image {
+        margin: -60px 0 0 30px;
+        width: 40%;
+    }
+
+
+    /* AUGABEN */
+    #tasks_area {
+        margin: 150px 0;
+    }
+
+    #tasks {
+        background-color: #4e4e4e;
+        display: flex;
+    }
+
+    #tasks p {
+        color: white;
+        margin: 70px 0 70px 160px;
+        width: 46%;
+    }
+
+    #tasks:hover .task_texts {
+        margin: 60px 0 80px 150px;
+        box-shadow: 20px 20px 3px black;
+        transition: all 0.5s ease;
+    } 
+
+
+    /* LOSUNG 1 */
+    #solution_block1 {
+        display: flex;
+        margin: 70px 0 190px 0;
+    }
+
+    .sol1_left {
+        margin: 0 0 0 90px;
+        width: 40%;
+    }
+
+    .sol1_right {
+        margin: -50px 0 0 50px;
+        width: 40%;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+
+    /* LOSUNGEN 2 */
+    #solution_block2 {
+        display: flex;
+    }
+
+    #solution2 h3 {
+        margin: 70px 0 0 90px;
+    }
+
+    .sol2_left {
+        margin: 70px 0 0 90px;
+        width: 40%;
+    }
+
+    .sol2_right {
+        margin: 90px 0 0 90px;
+        width: 40%;
+    }
+
+
+    /* RESPONSIVE */
+    #resposinve {
+        text-align: center;
+        margin: 100px 0 0 0;
+    }
+
+    #resposinve h3 {
+        margin: 0 0 -14px 0;
+    }
+}
+
+
+@media screen and (max-width: 896px) {
+    #project_page .name_container {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+
+    #project_page nav {
+        right: 100px;
+        top: 120px;
+    }
+
+    #header {
+        padding: 40px 0;
+        margin: -40px 0 0 0;
+        height: 600px;
+    }
+
+    /* KUNDEN Introduction */
+    #client_intro {
+        padding: 20px;
+        top: -270px;
+        left: 120px;
+        width: 70%;
+    }
+
+    .projekt_name {
+        font-size: 2.8em;
+    }
+
+    #title {
+        color: black;
+        font-size: 3em;
+        margin: 0;
+        text-align: center;
+    }
+
+    #initial_situation, 
+    #tasks_area, 
+    #solution1, 
+    #solution2 {
+        margin: -180px 0 0 0;
+    }
+
+    .initial_situation_content {
+        display: block;
+    }
+
+    .initial_situation_content p {
+        color: black;
+        margin: 40px 0 0 60px;
+        width: 88%;
+    }
+
+    #old_image {
+        margin: 60px 0 0 270px;
+        width: auto;
+    }
+
+    /* AUGABEN */
+    #tasks_area {
+        margin: 150px 0 60px 0;
+    }
+
+    #tasks {
+        background: transparent;
+        display: block;
+        padding: 40px 0;
+    }
+
+    #tasks h2 {
+        color: black;
+        margin: 0 0 40px 0;
+    }
+
+    #tasks p {
+        color: white;
+        margin: 70px 0 0 44px;
+        width: 90%;
+    }
+
+    #tasks:hover .task_texts {
+        color: white;
+        margin: 70px 0 0 44px;
+        width: 90%;
+    } 
+
+    /* LOSUNG 1 */
+    #solution1 {
+        margin: 0 !important;
+    }
+
+    #solution_block1 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 70px 0 190px 0;
+    }
+
+    .sol1_left {
+        margin: 60px 0 0 200px;
+        width: auto;
+    }
+
+    .sol1_right {
+        margin: -50px 0 0 65px;
+        width: 87%;
+    }
+
+    .sol1_right p {
+        margin: 40px 0 0 0;
+        color: black;
+    }
+
+    .sol1_right h3 {
+        color: black;
+    }
+
+    h3 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+
+    /* LOSUNGEN 2 */
+    #solution2 {
+        margin: 0 !important;
+    }
+
+    #solution2 h3,
+    #solution2 p {
+        color: black;
+    }
+
+    #solution_block2 {
+        display: block;
+    }
+
+    #solution2 h3 {
+        margin: 0 0 0 50px;
+        width: 90%;
+    }
+
+    .sol2_left {
+        margin: 0 0 70px 66px;
+        width: 86%;
+    }
+
+    .sol2_right {
+        margin: 60px 0 0 200px;
+        width: auto;
+    }
+
+    #webseite_link {
+        font-size: 30px;
+        padding: 6px 42px;
+    }
+
+    #webseite_link:hover {
+        transform: translate(-10px, 100px);
+        padding: 6px 42px;
+        box-shadow: 0px 3px 4px 0px rgb(63, 63, 63);
+        /* margin: 4px; */
+    }
+}
+
+
+/*----------- max-width: 480px -----------*/
+@media screen and (max-width: 600px) {
+    #project_page nav {
+        background-color: #5c5c59;
+        font-size: 14px;
+        padding: 5px 0;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        top: auto;
+        z-index: 100;
+        width: 100vw;
+      }
+
+    p {
+        font-size: 18px;
+    }
+
+    #header {
+        padding: 40px 0;
+        margin: -40px 0 0 0;
+        height: 600px;
+    }
+
+    /* KUNDEN Introduction */
+    #client_intro {
+        padding: 20px;
+        top: -490px;
+        left: 0;
+        width: auto;
+    }
+
+    #client_intro:hover {
+        background-image: linear-gradient(90deg,#002a6d, #b08829);
+        box-shadow: none !important;
+        position: relative;
+        top: -490px;
+        left: 0;
+        width: auto;
+        z-index: 10000;
+    }
+
+    .projekt_name {
+        font-size: 2.2em;
+        text-align: center;
+    }
+
+    #title {
+        font-size: 2.5em;
+        margin: 0;
+        text-align: center;
+    }
+
+    /* initial_situation */
+    #initial_situation {
+        margin: -100px 0;
+    }
+
+    #initial_situation, 
+    #tasks_area, 
+    #solution1, 
+    #solution2 {
+        margin: -360px 0 0 0;
+    }
+
+    .initial_situation_content {
+        display: block;
+    }
+
+    .initial_situation_content p {
+        margin: 40px 0 0 30px;
+        width: 90%;
+    }
+
+    #old_image {
+        margin: 60px 0 0 36px;
+        width: auto;
+    }
+
+    /* AUGABEN */
+    #tasks_area {
+        margin: 150px 0 60px 0;
+    }
+
+    #tasks {
+        display: block;
+        padding: 40px 0;
+    }
+
+    #tasks p {
+        color: white;
+        margin: 0;
+        width: 90%;
+    }
+
+        
+    #tasks:hover .task_texts {
+        box-shadow: none;
+        margin: 0;
+    }
+
+    #old_image img, 
+    .sol1_left img, 
+    .sol2_right img {
+        box-shadow: lightgray 0 5px 9px 1px;
+        width: 300px;
+        height: auto;
+    }
+
+
+    /* LOSUNG 1 */
+    #solution_block1 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 70px 0 190px 0;
+    }
+
+    .sol1_left {
+        margin: 60px 0 0 38px;
+        width: auto;
+    }
+
+    .sol1_right {
+        margin: -50px 0 0 28px;
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 26px;
+        text-align: center;
+        font-weight: 600;
+    }
+        
+    /* LOSUNGEN 2 */
+    #solution_block2 {
+        display: block;
+    }
+
+    #solution2 h3 {
+        margin: -100px 0 0 24px;
+    }
+
+    .sol2_left {
+        margin: 0 0 70px 30px;
+        width: 90%;
+    }
+
+    .sol2_right {
+        margin: 60px 0 0 38px;
+        width: auto;
+    }
+
+    /* ZUR Webseite */
+    #link {
+        margin: 100px;
+        text-align: center;
+    }
+
+    #link h2 {
+        font-size: 1.2em !important;
+    }
+
+    #webseite_link {
+        font-size: 1em;
+        padding: 10px 30px;
+    }
+
+    #webseite_link:hover {
+        font-size: 1em;
+        font-weight: lighter;
+        padding: 10px 30px;
+    }   
+}

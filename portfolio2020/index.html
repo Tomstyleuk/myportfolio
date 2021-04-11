@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104309931-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-104309931-3");
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+  <link rel="manifest" href="images/site.webmanifest" />
+  <title>Tomoya Takinami Web Frontend-Entwickler</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <div id="head_img">
+        <img src="images/myfoto.jpg" alt="Tomoya Foto" />
+      </div>
+      <div class="name_container">
+        <h1 id="myname"><a href="#header" title="Home">TOMOYA</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#project" title="project" glot-model="project">Projekte</a>
+          </li>
+          <li><a href="#skills" title="skills">Skills</a></li>
+          <li><a href="#about" title="about">About</a></li>
+          <li>
+            <a href="#kontakt" title="kontact" glot-model="contact">Kontakt</a>
+          </li>
+          <li><a class="nav-link" id="de" glot-model="de" title="German">DE</a></li>
+          <li><a class="nav-link" id="en" glot-model="us" title="English">EN</a></li>
+        </ul>
+      </nav>
+      <aside id="vertical_nav">
+        <ul>
+          <li>
+            <a href="https://github.com/Tomstyleuk" target="_blank" class="git"><img src="images/GitHub-Mark-64px.png"
+                alt="git" class="imgs" /></a>
+          </li>
+          <li>
+            <a href="mailto:hjtakinami@gmail.com" class="email mailtoui"><img src="images/teilen.png" alt="email"
+                class="imgs" /></a>
+          </li>
+        </ul>
+      </aside>
+    </header>
+
+    <section id="top_intro">
+      <div>
+        <h3 id="frontend"></h3>
+      </div>
+      <article>
+        <!-- <p glot-model="int">
+          Meine Leidenschaft ist Coding und Design. Nach drei
+          Jahren Eigenstudium, Weiterbildung zum Web Developer und
+          Arbeit bei einer Webagentur, beherrsche ich neben HTML5(semantic coding), CSS3
+          und Responsive Webdesign. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laborum eaque
+          cupiditate
+        </p> -->
+      </article>
+    </section>
+
+    <div class="project_parent_container">
+      <h1 id="headline" glot-model="project">Projekte</h1>
+      <section id="project" class="projects_container">
+        <div class="projects_inner_container">
+          <div class="work_container_row">
+            <a href="german_strategy.html" class="work_inner_container block_1" title="Corporate website">
+              <div class="image_container">
+                <img src="images/german_strategy.png" alt="Corporate website" class="image" loading="lazy" />
+              </div>
+              <div class="lang_tool">
+                <p>Corporate Website (Web Development, Design)<br><span class="more">more</span></p>
+              </div>
+            </a>
+            <a href="https://bankist-dom.netlify.app/" class="work_inner_container block_2" title="Banking website"
+              target="_blank">
+              <div class="image_container">
+                <img src="images/Bankist_website.png" alt="Banking website" class="image" loading="lazy" />
+              </div>
+              <div class="lang_tool">
+                <p>Fictional Banking Website (Web Development)<br><span class="more">visit</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="work_container_row">
+            <a href="https://bankist.netlify.app/" class="work_inner_container block_3" title="Banking app"
+              target="_blank">
+              <div class="image_container">
+                <img src="images/Bankist_app.png" alt="Banking app" class="image" loading="lazy" />
+              </div>
+              <div class="lang_tool">
+                <p>Fictional Bank Login Page (Web Development)</p>
+              </div>
+            </a>
+            <a href="https://mapty.netlify.app/" class="work_inner_container block_4" title="Geolocation API"
+              target="_blank">
+              <div class="image_container">
+                <video src="images/mapty.mov" autoplay="" loop="" muted="" preload="auto" poster="images/mapty.png"
+                  class="image">
+              </div>
+              <div class="lang_tool">
+                <p>Training Traffic (Web Development)<br><span class="more">visit</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="work_container_row">
+            <a href="https://geocode.xyz/" class="work_inner_container block_5" title="Geolocation API" target="_blank">
+              <div class="image_container">
+                <img src="images/Geolocation.png" alt="Geolocation API" class="image" loading="lazy" />
+              </div>
+              <div class="lang_tool">
+                <p>Geolocation API (Web Development)</p>
+              </div>
+            </a>
+            <a class="work_inner_container block_6" title="Game" target="_blank">
+              <div class="image_container">
+                <video src="images/pig_game.mov" autoplay="" loop="" muted="" preload="auto" poster="images/mapty.png"
+                  class="image" title="pig Game">
+              </div>
+              <div class="lang_tool">
+                <p>Pig Game (Web Development)</p>
+              </div>
+            </a>
+          </div>
+          <div class="work_container_row">
+            <a class="work_inner_container block_7" title="new blog">
+              <div class="image_container com_soon_container">
+                <img src="images/gatsby_blog.png" alt="new blog" class="image" loading="lazy" />
+                <div class="com_soon">
+                  <h3>Coming soon</h3>
+                </div>
+                <div class="bg"></div>
+              </div>
+              <div class="lang_tool">
+                <p>Blog (GatsbyJs, Contetnful, Netlify)</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- projekte -->
+    </div>
+    <!--project_container-->
+
+    <div class="skills_container">
+      <h1 id="headline" class="headline">Skills</h1>
+      <p class="prog_tools" glot-model="tools">
+        Programmiersprache & Tools
+      </p>
+      <section id="skills" class="fadein">
+        <div id="Programmiersprache">
+          <h2 class="fadein txt01">HTML5</h2>
+          <h2 class="fadein txt02">CSS3</h2>
+          <h2 class="fadein txt03">SCSS</h2>
+          <h2 class="fadein txt04">jQuery</h2>
+          <h2 class="fadein txt05">JavaScript (ES6)</h2>
+        </div>
+        <!-- Programmiersprache -->
+        <div id="tools">
+          <h2 class="fadein txt06">Wordpress</h2>
+          <h2 class="fadein txt07">Adobe XD</h2>
+          <h2 class="fadein txt08">Responsive Design</h2>
+          <h2 class="fadein txt09">
+            GitHub
+            <a href="https://github.com/Tomstyleuk" class="gitlink" title="Link zum GitHub" target="_blank"><img
+                src="images/GitHub-Mark-64px.png" alt="GitHub Link" class="imgs" /></a>
+          </h2>
+        </div>
+        <!-- tools -->
+      </section>
+    </div>
+    <!--skills_container-->
+    <h1 id="headline" class="mystory">My Story</h1>
+    <section id="about" class="fadeInUp">
+      <p glot-model="about">
+        <!-- <span class="highlight">Hi, danke, dass Sie mein Portfolio besuchen und bis hier gelesen haben.</span>
+        In letzter Zeit sind meine Neugierde und Passion WebGL und three.js Meine Neugierde hat kein Ende in Sicht.
+        Meine Leidenschaften sind Programmieren, Design und Kochen. Ich habe 2018 ein Eigenstudium zum Web Developer
+        begonnen und 2020 die Weiterbildung dazu abgeschloseen. Ich war beeindruckt von der Kraft der Programmierung und
+        des Designs, denn sie ermöglichen es, meine Ideen im Web auszudrücken und die Business-Ziel des Unternehmens
+        über dies zum Erfolg führen. Ich verliebte dies und sie lassen mich vergessen zu schlafen. :)
+        momentan sind meine Interesse WebGl und lerne gerade three.js React.
+        Meine Ziele sind es, 1) nützliche Apps für die Menschen zu entwickeln und einen Beitrag für die Gesellschaft zu
+        leisten und 2) Preise bei awwwards zu gewinnen.
+        Um dies zu erreichen, vertiefe ich mein Wissen über Programmierung und Design, indem ich mir jeden Tag neue
+        Informationen, Trends und verschiedene Websites anschaue.<br>
+        So jetzt wenn Sie einen ersten Eindruck von mir gewinnen konnten, lass uns einen Kaffee zusammen trinken? :)
+        Bitte kontaktieren Sie mir über die unter E-Mail! -->
+      </p>
+    </section>
+    <!-- story -->
+    <section id="kontakt" class="fadeInUp">
+      <p glot-model="text">
+        Ich freue mich auf Ihre Kontakt und uns kennenzulernen. :)
+      </p>
+      <h2>
+        <a href="mailto:hjtakinami@gmail.com" id="email_adresse" class="mailtoui">hjtakinami@gmail.com</a>
+      </h2>
+    </section>
+    <footer id="footer">
+      <h1><a href="#header" title="Home">TOMOYA</a></h1>
+      <ul>
+        <li>
+          <a href="#project" title="projekte" glot-model="project">Projekte</a>
+        </li>
+        <li><a href="#skills" title="skills">Skills</a></li>
+        <li><a href="#about" title="about">About</a></li>
+        <li>
+          <a href="#kontakt" title="kontact" glot-model="contact">Kontakt</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <!-- wrapper -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="FlowType.JS-1.1.0/flowtype.js"></script>
+  <script src="skew.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/glottologist"></script>
+</body>
+
+</html>

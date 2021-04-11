@@ -1,0 +1,641 @@
+@media screen and (max-width: 1439px) and (min-width: 1025px) {
+  #top_intro {
+    position: absolute;
+    right: 0;
+    top: 200px;
+    width: 50%;
+    z-index: 10000;
+  }
+
+  #top_intro #frontend {
+    font-size: 2.2em;
+  }
+
+  #top_intro #frontend::first-letter {
+    font-size: 1.3em;  
+  }
+
+
+  .name_container {
+    position: absolute;
+    top: 0;
+    left: -30px;
+  }
+
+  #myname {
+    font-size: 2.5em;
+    margin: 50px 0 0 80px;
+  }
+
+  nav {
+    right: 150px;
+  }
+
+  nav li {
+    margin-right: 4%;
+  }
+
+  #headline {
+    font-size: 2.5em;
+    margin: 50px 0 0 110px;
+  }
+
+  #Programmiersprache {
+    margin: 0 0 0 110px;
+  }
+
+  .prog_tools {
+    right: 120px;
+  }
+
+  #about p {
+    margin: 30px 0 0 110px;
+  }
+
+  footer h1 {
+    font-size: 2.5em;
+  }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  strong {
+    color: black;
+  }
+
+  #wrapper {
+    background-image: none;
+    background-image: linear-gradient(to top, #9b9b9b 0%, #242424 100%);
+    max-width: 1024px;
+    position: relative;
+  }
+
+  /*----------- HEADER -----------*/
+  header {
+    display: flex;
+  }
+
+  .name_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #myname {
+    color: #fff;
+    font-size: 2.4em;
+    margin: 50px 0 0 40px;
+  }
+
+  /*----------- NAV -----------*/
+  nav {
+    position: absolute;
+    right: 174px;
+    margin: 52px 0 0 0;
+  }
+
+  nav li a,
+  footer li a {
+    font-size: 1.3em;
+  }
+
+  nav li,
+  footer li {
+    margin: 0 8% 0 0;
+  }
+
+  /*----------- ASIDE -----------*/
+  #vertical_nav {
+    top: 200px;
+    left: 0;
+  }
+
+  .git,
+  .email {
+    margin: 0 0 30% 0;
+  }
+
+  /*----------- top_intro -----------*/
+  #top_intro {
+    position: absolute;
+    right: 0;
+    top: 200px;
+    width: 50%;
+    z-index: 10000;
+  }
+
+  #top_intro #frontend {
+    color: #fff;
+    font-size: 2.2em;
+  }
+
+  #top_intro #frontend::first-letter {
+    font-size: 1.3em;
+  }
+
+
+  /*----------- headline -----------*/
+  #headline {
+    color: black;
+    font-size: 2.8em;
+    margin: 0px 0 0 120px;
+  }
+
+  #headline::first-letter {
+    font-size: 1.5em;
+  }
+
+
+  /*----------- SKILLS -----------*/
+  .headline {
+    float: left;
+  }
+
+  .prog_tools {
+    color: black;
+    float: right;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    position: relative;
+    top: 20px;
+    right: 120px;
+  }
+
+  #skills {
+    clip-path: polygon(0 9%, 100% 0, 100% 88%, 0 100%);
+    display: flex;
+    margin: 0 0 70px 0;
+    padding: 30px 0;
+
+  }
+
+  #skills h2 {
+    font-size: 2.4em;
+    margin: 0;
+  }
+
+  #Programmiersprache {
+    margin: 0 0 0 120px;
+    width: 40%;
+  }
+
+  #tools {
+    margin: 0 0 0 90px;
+    width: 40%;
+  }
+
+  /*----------- MY STORY -----------*/
+  #about p {
+    margin: 30px 0 0 120px;
+    width: 80%;
+  }
+
+  .gitlink,
+  .wbslink {
+    color: black;
+  }
+
+  /*----------- KONTAKT -----------*/
+  #kontakt {
+    padding: 40px 0;
+    margin: 100px 0;
+  }
+
+  #kontakt a::after {
+    content: "";
+    display: block;
+  }
+
+  /*----------- FOOTER -----------*/
+  footer {
+    display: flex;
+    margin: -100px 0;
+  }
+
+  footer ul {
+    margin: 70px 0 0 180px;
+  }
+
+  footer li {
+    float: left;
+  }
+
+  footer h1 {
+    font-size: 3em;
+    padding: 0 0 40px 0;
+    margin: 50px 0 0 80px;
+  }
+}
+
+/*----------- max-width: 896px -----------*/
+@media screen and (max-width: 896px) {
+  #wrapper {
+    background: #F0F0F0;
+    max-width: 896px;
+  }
+
+  /*----------- HEADER -----------*/
+  header {
+    display: block;
+  }
+
+  .name_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #myname {
+    color: #fff;
+    font-size: 1.6em;
+    margin: 40px 0 0 40px;
+  }
+
+  .highlight {
+    color: black;
+  }
+
+
+  /*----------- NAV -----------*/
+  nav {
+    right: 100px;
+    top: 84px;
+    margin: -43px 0 0 0;
+  }
+
+  nav li a,
+  footer li a {
+    font-size: 1.1em;
+  }
+
+  nav li,
+  footer li {
+    margin: 0 4% 0 0;
+  }
+
+  /*----------- ASIDE -----------*/
+  #vertical_nav {
+    top: 200px;
+    left: 12px;
+  }
+
+  .git,
+  .email {
+    display: inline-block;
+    margin: 0 0 10px 0;
+  }
+
+  /*----------- top_intro -----------*/
+  #top_intro {
+    position: absolute;
+    right: 36px;
+    top: 140px;
+    width: 46%;
+    z-index: 10000;
+  }
+
+  #top_intro #frontend {
+    color: #fff;
+    font-size: 2em;
+  }
+
+  #top_intro #frontend::first-letter {
+    font-size: 1.6em;
+  }
+
+  /*----------- headline -----------*/
+  #headline {
+    font-size: 2.3em;
+    margin: 30px 0 0 70px;
+  }
+
+  #headline::first-letter {
+    font-size: 1.5em;
+  }
+
+
+  /*----------- PROJEKTE -----------*/
+  .work_inner_container:hover .lang_tool p {
+    color: white;
+    transform: translateY(-4px);
+  }
+
+  .com_soon h3 {
+    font-size: 28px;
+  }
+
+  .bg {
+    opacity: 0.9;
+    transition: all 0.5s ease;
+  }
+
+  .image_container {
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+    filter: grayscale(0);
+    transition: all 0.4s ease;
+  }
+
+  .lang_tool p {
+    color: black; 
+  }
+
+  .work_inner_container:hover .lang_tool p,
+  .work_inner_container:hover .more {
+    color: black; 
+    transform: translateY(-4px);
+  }
+
+  .more {
+    color: black;
+    text-decoration: underline #e2e646 3px;
+  }
+
+  /*----------- SKILLS -----------*/
+  .prog_tools {
+    float: none;
+    font-size: 1.1em;
+    letter-spacing: 0;
+    top: 100px;
+    right: 100px;
+    width: auto;
+  }
+
+  #skills {
+    display: block;
+    margin: 120px 0 70px 0;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  #skills h2 {
+    font-size: 1.8em;
+  }
+
+  #Programmiersprache {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #tools {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  /*----------- MY STORY -----------*/
+  #about p {
+    color: black;
+    margin: 30px 0 0 70px;
+  }
+
+  .gitlink,
+  .wbslink {
+    color: black !important;
+  }
+
+  /*----------- KONTAKT -----------*/
+  #kontakt {
+    padding: 20px 0;
+    margin: 80px 0;
+  }
+
+  #kontakt a::after {
+    content: "";
+    display: block;
+  }
+
+  #kontakt p {
+    margin: 0 0 0 16px;
+    width: 90%;
+  }
+
+  /*----------- FOOTER -----------*/
+  footer {
+    display: flex;
+    margin: -78px 0;
+  }
+
+  footer ul {
+    margin: 38px 0 0 70px;
+  }
+
+  footer h1 {
+    font-size: 2em;
+    padding: 20px 0 22px 0;
+    margin: 10px 0 0 70px;
+  }
+}
+
+/*----------- max-width: 600 -----------*/
+@media screen and (max-width: 600px) {
+
+  #wrapper {
+    max-width: 600px;
+  }
+
+  /*----------- HEADER -----------*/
+  .name_container {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #myname {
+    font-size: 1.3em;
+    margin: 0;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+
+  #head_img {
+    clip-path: circle(12.9% at 82% 17%);
+  }
+
+  /*----------- NAV -----------*/
+  nav {
+    background-color: #5c5c59;
+    font-size: 14px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: auto;
+    z-index: 100;
+    width: 100vw;
+  }
+
+  nav li a,
+  footer li a {
+    font-size: 1.1em;
+  }
+
+  nav ul {
+    margin: 0 20px;
+  }
+
+  nav li,
+  footer li {
+    margin: 0 4% 0 -1%;
+  }
+
+  nav li:nth-of-type(n + 5) a {
+    padding: 8px 5px;
+  }
+
+  /*----------- ASIDE -----------*/
+  #vertical_nav {
+    top: 200px;
+    left: -28px;
+  }
+
+  .git,
+  .email {
+    display: none;
+  }
+
+  /*----------- top_intro -----------*/
+  #top_intro {
+    top: 300px;
+    width: 80%;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  #top_intro #frontend {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  #top_intro #frontend::first-letter {
+    font-size: 1.6em;
+  }
+
+  @keyframes flowing {
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  /*----------- headline -----------*/
+  #headline {
+    font-size: 2em;
+    margin: 0 0 0px 36px;
+  }
+
+  #headline::first-letter {
+    font-size: 1.5em;
+  }
+
+  /*----------- PROJEKTE -----------*/
+  .project_parent_container {
+    position: relative;
+    margin: 180px 0 0 0;
+  }
+
+  .work_container_row {
+    display: block;
+  }
+
+  .work_inner_container {
+    width: 100%;
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .image_container {
+    filter: unset;
+  }
+
+  .lang_tool p {
+    font-size: 16px;
+    margin: 14px;
+    text-align: center;
+  }
+
+  .work_inner_container:hover .lang_tool p {
+    color: inherit;
+  }
+
+  .block_7 .lang_tool {
+    color: black;
+    position: relative;
+    top: 40px;
+  }
+
+  .bg {
+    opacity: 0.95;
+  }
+
+  .more {
+    position: unset;
+  }
+
+  /*----------- SKILLS -----------*/
+  .prog_tools {
+    float: none;
+    letter-spacing: 0;
+    top: 130px;
+    right: 110px;
+  }
+
+  #skills {
+    margin: 146px 0 0 0;
+    padding: 30px 0;
+  }
+
+  #skills h2 {
+    font-size: 1.8em;
+  }
+
+  #Programmiersprache {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #tools {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  /*----------- MY STORY -----------*/
+  #about p {
+    color: black;
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  /*----------- KONTAKT -----------*/
+  #kontakt {
+    padding: 20px 0;
+    margin: 80px 0;
+  }
+
+  #email_adresse {
+    font-size: 32px;
+  }
+
+  #kontakt a::after {
+    content: "";
+    display: block;
+  }
+
+
+  /*----------- FOOTER -----------*/
+  footer {
+    display: block;
+    margin: -78px 0;
+    opacity: 0;
+  }
+
+  footer ul {
+    margin: 0;
+  }
+
+  footer h1 {
+  display: none;
+  }
+}

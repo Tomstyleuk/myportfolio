@@ -1,0 +1,66 @@
+{
+    "project": {
+        "de": "Projekte",
+        "en": "Projects"
+    },
+    "contact": {
+        "de": "Kontakt",
+        "en": "Contact"
+    },
+    "tools": {
+        "de": "Programmiersprache & Tools",
+        "en": "Programming Languages & Tools"
+    },
+    "about": {
+        "de": "Hi, danke, dass Sie mein Portfolio besuchen und bis hierhin gelesen haben. <span class=\"highlight\">In letzter Zeit sind WebGL und Three.js meine Leidenschaft.</span> Mein Wissensdurst und meine Neugierde sind grenzenlos. <br>Falls sie nun neugierig auf meine Geschichte sind, lesen Sie bitte weiter. Ich habe 2017 meinen langjährigen Traum, ein eigenes japanisches Restaurant zu eröffnen aufgeben müssen. Auf der Suche nach einer alternativen Karriere kam ich über mein Interesse an Design und digitalen Technologien zu ersten Coding-Versuchen. Es war als hätte mich ein Blitz getroffen, ich hatte meine Berufung gefunden. Ich war beeindruckt von der Kraft der Programmierung und des Designs, denn sie ermöglichen es nicht nur, meine Ideen im Web auszudrücken, sondern auch Kunden/Unternehmen zu Erfolg zu verhelfen und Usern eine besondere Experience zu verschaffen. <br><span class=\"highlight\">Meine langfristigen Ziele sind, 1) nützliche Apps für unterschiedlichste Zielgruppen zu entwickeln und einen Beitrag für die Gesellschaft zu leisten und 2) Preise bei awwwards zu gewinnen. </span>Um meine Ziele zu erreichen, vertiefe ich stetig mein Wissen über Programmierung und Design und halte mich immer auf dem Laufenden bezüglich neuer Trends und Technologien. Ich hoffe Sie konnten einen ersten Eindruck von mir gewinnen. <br>Lassen Sie uns gerne einen virtuellen Kaffee zusammen trinken? :)",
+        "en": "Hi, thanks for visiting my portfolio and reading this far. <span class=\"highlight\">Lately, WebGL and Three.js have been my passion. </span>My thirst for knowledge and my curiosity are boundless. <br>If you are now curious about my story, please read on. In 2017, I had to give up my long-time dream of opening my own Japanese restaurant. Looking for an alternative career, I got into coding through my interest in design and digital technologies. It was as if I had been struck by lightning, I had found my calling. I was impressed by the power of coding and design. Not only could I now express my ideas on the internet, but I could also help clients/companies to succeed and give users a special experience. <span class=\"highlight\">My long term goals are to 1) develop useful apps for diverse audiences and contribute to society and 2) win an award at awwwards. </span>To achieve these goals, I am constantly striving to improve my knowledge of programming and design, and to follow new trends and technologies. I hope you could get a first impression of me. Let's have a virtual coffee together? :)"
+    },
+    "text": {
+        "de": "Ich freue mich auf Ihre Kontakt und uns kennenzulernen. :)",
+        "en": "I am looking forward to hearing from you and getting to know us. :)"
+    },
+    "gscIntro": {
+        "de": "German Strategy Consulting (GSC) ist der erste Partner, der mit japanischen Unternehmen an Ihren europäischen Strategien arbeitet und hilft sie zu formulieren. Die in Japan entwickelten Strategien fliesen mit 'lokaler europäischer Perspektive' angereichert in die Unternehmensplanung ein. GSC bietet zwei Dienstleistungen an: Die erste ist eine aus Europa angebotene Unternehmens- und Managementstrategieberatung. Die zweite ist ein Dienst, der regelmäßigig sorgfältig ausgewählte Informationen aus den europäischen Medien, Regierungs- und Forschungseinrichtungen liefert. CEO Herr Wada war Leiter der Geschäftsstrategie bei der FBC Business Consulting GmbH in Frankfurt am Main, wo er für die Unterstützung japanischer Unternehmen zuständig war, bevor er sein Geschäft 2019 ausgliederte und die Zusammenarbeit mit der FBC fortsetzte.",
+        "en": "German Strategy Consulting (GSC) is the first partner to work with a Japanese company on your European strategies. GSC helps clients to bring their strategies to life. The strategies developed in Japan are incorporated into the corporate planning with a 'local European perspective'. GSC offers two services: The first is a corporate and management strategy consultancy service offered from Europe. Secondly, a service that regularly provides well selected information from the European media, government and research institutions. The CEO, Mr Wada was Head of Business Strategy at FBC Business Consulting GmbH in Frankfurt am Main, where he was responsible for supporting Japanese companies before spinning off his business in 2019 and continuing his cooperation with FBC."
+    },
+    "titleSituation": {
+        "de": "Ausgangssituation",
+        "en": "Initial Situation"
+    },
+    "situation": {
+        "de": "Er hatte eine Webseite, aber das Design war veraltet und er wollte eine neue moderne Webseite, die mit einer Vielzahl von Endgeräten kompatibel sein sollte. Außerdem sollte das Problem gelöst werden, dass der Name und die Webseite des Unternehmens in Japan relativ unbekannt waren und er selten neue Anfragen über die Webseite bekam. Er wollte mehr Traffic auf seiner Webseite und neue Kunden gewinnen.",
+        "en": "He had a website with outdated design and he wanted a new modern website that would be compatible with a wide range of devices. He also wanted a solution to the problems of the company's name and website not being enough known and he rarely received requests from Japanese companies via the website. Our goals were to get more traffic on his website and to attract new clients."
+    },
+    "titleTask": {
+        "de": "Aufgaben",
+        "en": "Missions"
+    },
+    "taskDescri": {
+        "de": "Aufgaben waren Konzeption und Entwicklung - von der Erstberatung über Layout Programmierung, individuelles Wordpress Theme sowie responsive Web Design bis zu geeigneten Plug-Ins. Ich arbeitete auch an der SEO und der Programmierung individueller Funktionalitäten, um sein Unternehmen und seine Webseite besser auffindbar für japanische Unternehmen zu machen. Außerdem brauchten wir ein ansprechendes neues Design, um einen das Erscheinungsbild zu modernisieren. Die Zielgruppe waren japanische Direktoren (männlich zwischen 30 und 50 Jahren) von Firmen in Tokio die für Abteilungen in der Unternehmensplanung zuständig sind. Außerdem war es ein weiterer Wunsch zwei Blog-Seiten umzusetzen.",
+        "en": "Missions were conception and development - from initial consultation, layout, programming, individual Wordpress theme and responsive web design to suitable plug-ins. I also worked on the SEO and programming of individual functionalities to make his company and his website recognisable for Japanese businesses. We also needed a new design to modernise the appearance of the website. The target group were Japanese directors (male between 30 and 50 years old) of companies in Tokyo who are responsible for departments in corporate planning. Furthermore the client wanted me to implement two Blog pages."
+    },
+    "titleSolution": {
+        "de": "Lösungen",
+        "en": "Solutions"
+    },
+    "sol1": {
+        "de": "Modernes Design und Optimierung für verschiedene Endgeräte",
+        "en": "Modern Design and Optimisation for Various End-Devices"
+    },
+    "solDescri": {
+        "de": "Basis für die technische Umsetzung war das Content-Management-System (CMS) Wordpress. Das leistungsstarke CMS erlaubt ganz individuelle technische Lösungen und ermöglicht die einfache und effiziente Pflege im Backend. Das Image der Webseite sollte ehrlich, anspruchsvoll und „trendy“ wirken. Daher habe ich mich für drei Farben entschieden, die diese Seriosität ausstrahlen: dunkelblau, helles grau und Gold als Akzentfarbe. Ich habe zuerst das CI mit Figma entworfen. In dieser Phase haben wir auch responsive web design entschieden und die Webseite wurde ohne Bootstrap für verschiedene Endgeräten optimiert.",
+        "en": "The basis for the technical implementation was the content management system (CMS) Wordpress. The powerful CMS allows very individual technical solutions and enables easy and efficient maintenance in the backend. The image of the website should be honest, sophisticated and 'trendy'. Therefore, I decided on three colours that present this reliability: dark blue, light grey and gold as accent colour. Firstly, I designed the CI with Figma. In this phase we also decided on responsive web design and this website was optimised for various devices without bootstrap."
+    },
+    "sol2": {
+        "de": "Implementierung zwei Blog-Seiten, um Informationen und seine Einsichten, die er in Deutschland erhält, zu veröffentlichen",
+        "en": "Implementation of two blog pages to publish information and his insights"
+    },
+    "solDescri2": {
+        "de": "Wir haben den Inhalt der Webseite besprochen, wie die Webseite zu strukturieren ist. Er möchte deutsche und europäische Wirtschaftsnachrichten und Informationen veröffentlichen, die für Japaner schwer zugänglich sind. So haben wir zwei Blog-Seiten eingerichtet, aus welchen er ausgewählte Wirtschaftsnachrichten veröffentlichen kann. Außerdem wollte er die Zahl der Anfragen erhöhen, weshalb wir auf jeder Seite ein Kontaktformular zur Verfügung stellten, so dass sich seine Zielgruppe sofort mit ihm in Verbindung setzen kann. Unsere regelmäßige Kommunikation ermöglichte es mir, ihn eng in den Entwicklungsprozess einzubinden und schnell auf alle Anpassungswünsche einzugehen.",
+        "en": "We discussed contents of the website how to structure it. He wanted to publish German and European business news and information that is difficult for Japanese companies to access. Thus, we set up two blog pages where he can publish selected business news and his insights. Since he wanted to increase the number of inquires, we provided a contact form on each page so that his target group can get in touch with him immediately. Our frequent communication enabled me to respond quickly to all his change requests."
+    },
+    "linkWebsite": {
+        "de": "Zur Webseite",
+        "en": "Visit the Website"
+    }
+}
